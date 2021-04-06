@@ -1,0 +1,48 @@
+{
+  "name": "@sno2/pex",
+  "amdName": "pex",
+  "description": "An unofficial promise-based Pexels API wrapper with top-notch TypeScript support.",
+  "keywords": [
+    "pexels",
+    "pexel-api-wrapper",
+    "pexels-api",
+    "api-wrapper",
+    "typescript"
+  ],
+  "version": "1.0.0-alpha.1",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "exports": "dist/index.modern.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "jsdelivr": "dist/index.umd.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "clean": "rimraf dist",
+    "test": "jest",
+    "doc": "typedoc src/index.ts src/types/index.ts --out dist/docs --plugin typedoc-plugin-markdown",
+    "prepare": "npm run build && npm run doc"
+  },
+  "author": "Carter Snook",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "microbundle": "^0.13.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typedoc": "^0.20.35",
+    "typedoc-plugin-markdown": "^3.6.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

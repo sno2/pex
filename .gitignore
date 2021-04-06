@@ -1,0 +1,11 @@
+# JS Dependencies
+node_modules
+
+# Build files
+dist
+
+# Development files
+dev.js
+
+# Environment Variable Files
+**.env

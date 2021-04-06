@@ -44,7 +44,7 @@ import { Pex } from "@sno2/pex"; // ES Module
 
 ## Docs
 
-Check out the [full API docs](./dist/docs/modules/index.md).
+Check out the [full API docs](./docs/modules/index.md).
 
 ## License
 

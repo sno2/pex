@@ -49,9 +49,7 @@ export class Pex {
    * @returns The queried photo.
    */
   async getPhoto(queryOpts: PhotoQuery) {
-    const res = await this.#axios.get<["photos", Photo]>(
-      `/v1/photos${queryOpts.id}`
-    );
+    const res = await this.#axios.get<Photo>(`/v1/photos${queryOpts.id}`);
     return res.data;
   }
 

@@ -83,13 +83,13 @@ Name | Type | Description |
 
 The paginated, curated photos.
 
-Defined in: index.ts:78
+Defined in: index.ts:76
 
 ___
 
 ### getPhoto
 
-▸ **getPhoto**(`queryOpts`: [*PhotoQuery*](../modules/types.md#photoquery)): *Promise*<[*photos*, [*Photo*](../interfaces/types.photo.md)]\>
+▸ **getPhoto**(`queryOpts`: [*PhotoQuery*](../modules/types.md#photoquery)): *Promise*<[*Photo*](../interfaces/types.photo.md)\>
 
 Gets a single photo object.
 
@@ -99,7 +99,7 @@ Name | Type | Description |
 :------ | :------ | :------ |
 `queryOpts` | [*PhotoQuery*](../modules/types.md#photoquery) | An object that includes the `id` of the specified photo and some other options.   |
 
-**Returns:** *Promise*<[*photos*, [*Photo*](../interfaces/types.photo.md)]\>
+**Returns:** *Promise*<[*Photo*](../interfaces/types.photo.md)\>
 
 The queried photo.
 
@@ -123,7 +123,7 @@ Name | Type | Description |
 
 The paginated photos response.
 
-Defined in: index.ts:63
+Defined in: index.ts:61
 
 ___
 
@@ -143,7 +143,7 @@ Name | Type | Description |
 
 The paginated popular videos.
 
-Defined in: index.ts:118
+Defined in: index.ts:116
 
 ___
 
@@ -163,7 +163,7 @@ Name | Type | Description |
 
 The video object.
 
-Defined in: index.ts:93
+Defined in: index.ts:91
 
 ___
 
@@ -183,4 +183,4 @@ Name | Type | Description |
 
 The paginated videos the match your query options.
 
-Defined in: index.ts:103
+Defined in: index.ts:101

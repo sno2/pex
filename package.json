@@ -26,7 +26,7 @@
     "clean": "rimraf dist",
     "test": "jest",
     "doc": "typedoc src/index.ts src/types/index.ts --out docs --plugin typedoc-plugin-markdown",
-    "prepare": "npm run build"
+    "prepare": "npm run build && npm run doc"
   },
   "author": "Carter Snook",
   "license": "MIT",

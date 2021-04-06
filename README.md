@@ -15,7 +15,7 @@ Pex has browser and Node.js support. You can check out how to use Pex for each o
 To use Pex on the web, you can just load your corresponding script type located in the `dist` folder after running `npm run build`. However, if you want to just load it via a CDN such as unpkg you can include the following HTML before your JavaScript that uses `window.pex`:
 
 ```html
-<script src="https://unpkg.com/@sno2/pex/dist/index.umd.js"></script>
+<script src="https://unpkg.com/@sno2/pex"></script>
 ```
 
 After that, you can just load in the `Pex` class as a UMD library on the `window` object:
